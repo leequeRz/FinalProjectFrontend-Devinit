@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="text-2xl font-bold mx-5">
         <div>Calenda&Todolist</div>
       </div>
-      <ul className="hidden md:flex space-x-10 mx-5 font-bold">
+      <ul className="hidden md:flex space-x-10 mx-10 font-bold">
         <li>
           <Link href="/">Home</Link>
         </li>
@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link href="/todolist">Todolist</Link>
         </li>
         <li>
-          <Link href="/notetaking">Notetaking</Link>
+          <Link href="/notetaking">Note-taking</Link>
         </li>
       </ul>
     </nav>

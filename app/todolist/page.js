@@ -1,5 +1,4 @@
-// import "./App.css";
-import { TodoWrapper } from "../components/todowrapper";
+import { TodoWrapper } from "../components/todo-list/todowrapper";
 
 function App() {
   return (

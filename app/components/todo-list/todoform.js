@@ -24,7 +24,7 @@ export const TodoForm = ({ addTodo }) => {
       />
       <button
         type="submit"
-        className="bg-black text-white border-none px-10 py-3 text-ml cursor-pointer rounded-md"
+        className="bg-black text-white border-none px-10 mt-3 py-3 text-ml cursor-pointer rounded-md"
       >
         Add Task
       </button>

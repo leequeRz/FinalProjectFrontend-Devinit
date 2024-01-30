@@ -1,13 +1,12 @@
-// pages/about.js
-import Navbar from "../components/navbar";
+import Calenda from "../components/calenda/calenda";
 
-const About = () => {
+const tableCalenda = () => {
   return (
     <div>
       {/* Add your about page content here */}
-      Calenda
+      <Calenda />
     </div>
   );
 };
 
-export default About;
+export default tableCalenda;

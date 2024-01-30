@@ -1,12 +1,12 @@
-// pages/about.js
+import Note from "../components/notetaking/note";
 
-const About = () => {
+const Page = () => {
   return (
     <div>
       {/* Add your about page content here */}
-      Notetaking
+      <Note />
     </div>
   );
 };
 
-export default About;
+export default Page;

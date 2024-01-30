@@ -15,12 +15,12 @@ export const EditTodoForm = ({ editTodo, task }) => {
         type="text"
         value={value}
         onChange={(e) => setValue(e.target.value)}
-        className="outline-none bg-none border border-purple-800 p-2 mt-4 mb-8 w-300 text-white placeholder-white-50"
+        className="outline-none bg-none border border-black rounded-md p-3 mt-3 mb-8 w-1/2 text-black placeholder-white-50"
         placeholder="Update task"
       />
       <button
         type="submit"
-        className="bg-purple-800 text-white border-none p-3.5 cursor-pointer"
+        className="bg-black text-white border-none p-3.5 rounded-md cursor-pointer mx-5"
       >
         Add Task
       </button>

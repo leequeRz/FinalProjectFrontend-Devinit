@@ -1,5 +1,5 @@
 import Main from "./components/main";
-const Home = () => {
+const Page = () => {
   return (
     <div className="">
       <Main />
@@ -7,4 +7,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Page;

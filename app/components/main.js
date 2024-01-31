@@ -11,27 +11,27 @@ const Main = () => {
           <div className="font-bold">Do you want to manage your life?</div>
         </div>
       </div>
-      <div className="my-20 flex justify-around w-full h-full">
-        <Link href="/calenda">
-          <div className="p-20  text-bold bg-white rounded-md text-black text-3xl text-center">
-            <p className="text-4xl">CALENDA!</p>
-            <p className="text-center mt-5 text-xl">
+      <div className="my-20 flex justify-around w-full items-stretch mx-36">
+        <Link href="/calenda" className="flex-1">
+          <div className="p-10 text-bold bg-white rounded-md text-black text-xl text-center w-1/2 h-full">
+            <p className="text-xl">CALENDA!</p>
+            <p className="text-center mt-3">
               <FontAwesomeIcon icon={faCalendarDays} />
             </p>
           </div>
         </Link>
-        <Link href="/todolist">
-          <div className="p-20  text-bold bg-white rounded-md text-black text-3xl text-center">
-            <p className="text-4xl">TODO-LIST!</p>
-            <p className="text-center mt-5 text-xl">
+        <Link href="/todolist" className="flex-1">
+          <div className="p-10 text-bold bg-white rounded-md text-black text-xl text-center w-1/2 h-full">
+            <p className="text-xl">TODO-LIST!</p>
+            <p className="text-center mt-3">
               <FontAwesomeIcon icon={faList} />
             </p>
           </div>
         </Link>
-        <Link href="/notetaking">
-          <div className="px-20 pt-20 pb-20 text-bold bg-white rounded-md text-black text-2xl text-center">
-            <p className="text-4xl">Notetaking!</p>
-            <p className="text-center mt-5 text-xl">
+        <Link href="/notetaking" className="flex-1">
+          <div className="p-10 text-bold bg-white rounded-md text-black text-xl text-center w-1/2 h-full">
+            <p className="text-xl">NOTE-TAKING!</p>
+            <p className="text-center mt-3">
               <FontAwesomeIcon icon={faBook} />
             </p>
           </div>

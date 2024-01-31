@@ -21,11 +21,11 @@
 3. npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 ## How to use
 
     npm run dev
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Prototype, Design (Figma)
 

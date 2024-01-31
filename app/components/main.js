@@ -11,9 +11,9 @@ const Main = () => {
           <div className="font-bold">Do you want to manage your life?</div>
         </div>
       </div>
-      <div className="my-20 flex justify-around w-full items-stretch mx-36">
+      <div className="my-20 flex justify-around items-stretch px-10">
         <Link href="/calenda" className="flex-1">
-          <div className="p-10 text-bold bg-white rounded-md text-black text-xl text-center w-1/2 h-full">
+          <div className="p-10 text-bold bg-white rounded-md text-black text-xl text-center w-1/2 h-full mx-36">
             <p className="text-xl">CALENDA!</p>
             <p className="text-center mt-3">
               <FontAwesomeIcon icon={faCalendarDays} />
@@ -21,7 +21,7 @@ const Main = () => {
           </div>
         </Link>
         <Link href="/todolist" className="flex-1">
-          <div className="p-10 text-bold bg-white rounded-md text-black text-xl text-center w-1/2 h-full">
+          <div className="p-10 text-bold bg-white rounded-md text-black text-xl text-center w-1/2 h-full mx-36">
             <p className="text-xl">TODO-LIST!</p>
             <p className="text-center mt-3">
               <FontAwesomeIcon icon={faList} />
@@ -29,7 +29,7 @@ const Main = () => {
           </div>
         </Link>
         <Link href="/notetaking" className="flex-1">
-          <div className="p-10 text-bold bg-white rounded-md text-black text-xl text-center w-1/2 h-full">
+          <div className="p-10 text-bold bg-white rounded-md text-black text-xl text-center w-1/2 h-full mx-36">
             <p className="text-xl">NOTE-TAKING!</p>
             <p className="text-center mt-3">
               <FontAwesomeIcon icon={faBook} />

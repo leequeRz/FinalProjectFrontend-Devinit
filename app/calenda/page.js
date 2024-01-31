@@ -1,6 +1,6 @@
 import Calenda from "../components/calenda/calenda";
 
-const tableCalenda = () => {
+const Page = () => {
   return (
     <div>
       {/* Add your about page content here */}
@@ -9,4 +9,4 @@ const tableCalenda = () => {
   );
 };
 
-export default tableCalenda;
+export default Page;

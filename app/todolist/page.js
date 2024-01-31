@@ -1,6 +1,6 @@
 import { TodoWrapper } from "../components/todo-list/todowrapper";
 
-function App() {
+function Todolist() {
   return (
     <div className="text-center;">
       <TodoWrapper />
@@ -8,4 +8,4 @@ function App() {
   );
 }
 
-export default App;
+export default Todolist;

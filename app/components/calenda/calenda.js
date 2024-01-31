@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Calendar, Button, Modal, DatePicker, Input, Badge } from "antd";
 
-const App = () => {
+const Calenda = () => {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [taskDate, setTaskDate] = useState(null);
   const [taskTopic, setTaskTopic] = useState("");
@@ -103,4 +103,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Calenda;

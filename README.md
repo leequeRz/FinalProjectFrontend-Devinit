@@ -3,7 +3,7 @@
  - This is a Project about Manage life which using a Calenda, Todo-list
    and Note-taking
    
- - This is a Final-Project-BorntoDev (Front-end-Developer)
+ - This is a Final-Project-BorntoDev (Front-end-Developer) using stack -> JavaScript, ReactJS, NextJs, TailwindCSS
  - This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Table of Contents
